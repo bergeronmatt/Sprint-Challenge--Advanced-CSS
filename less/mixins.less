@@ -1,1 +1,30 @@
 // Mixins Here
+
+//Button Creation Mixin
+
+.custom-btn(@bg-color, @width, @font-color, @font-family){
+  
+	display: block;
+  	background-color: @bg-color;
+  	margin: 0 10px 20px;
+  	cursor: pointer;
+  	width: @width;
+  	height: 45px;
+  	font-size: 2rem;
+	font-family: @font-family;
+  	border-radius: 10px;
+  	color:@font-color;
+
+	&:hover{
+		background-color: lighten(@bg-color, 15%);
+	}
+	
+}
+
+//Alignment Mixin
+
+.custom-layout(@justify, @align){
+	display:flex;
+	justify-content:@justify;
+	align-items:@align;
+}

@@ -25,7 +25,18 @@
       border-radius: 20px;
       height: 100%;
     }
+	  
+	 
+	  @media @mobile{
+		  
+		  .space-images{
+			  display:none;
+		  }
+		  
+	  }
+	  
   }
+
 
   .visit-planets {
     padding: 15px;
@@ -58,6 +69,8 @@
       }
 
       .btn {
+		  .custom-btn(@ebony-clay, 100px, white, 'Ubuntu', sans-serif);
+		  .custom-layout(space-around, center);
       }
     }
 
