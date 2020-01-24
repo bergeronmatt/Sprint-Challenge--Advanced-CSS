@@ -2,7 +2,7 @@
 
 //Button Creation Mixin
 
-.custom-btn(@bg-color, @width, @font-color, @font-family){
+.custom-btn(@bg-color, @width, @font-color){
   
 	display: block;
   	background-color: @bg-color;
@@ -11,9 +11,9 @@
   	width: @width;
   	height: 45px;
   	font-size: 2rem;
-	font-family: @font-family;
   	border-radius: 10px;
   	color:@font-color;
+	font-family: 'Ubuntu', sans-serif;
 
 	&:hover{
 		background-color: lighten(@bg-color, 15%);
