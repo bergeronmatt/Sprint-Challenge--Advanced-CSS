@@ -28,3 +28,17 @@
 	justify-content:@justify;
 	align-items:@align;
 }
+
+//Style Mixins
+
+.bordered() {
+  padding: 20px 0;
+  border-top: 1px dashed gray;
+  border-bottom: 1px dashed gray;
+}
+
+.center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
