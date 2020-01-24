@@ -34,13 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+	- Responsive sites and adaptive sites are the same in that they both change appearance based on browser dimensions, but , responsive websites
+	respond to the size of the browser at any given point. Adaptive websites adapt to the browser as specific points. 
+
 2. Describe what it means to be mobile first vs desktop first.
 
+	- Mobile first means that we are designing a website with the intention to be used more on a mobile device, where as desktop first means that
+	the design of the site is geared more towards use on a computer. 
+
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+	- This will automatically set the user's default browser font-size is changed to 62.5% of the HTML root font. This allows for more adaptability 
+	and accessibility compared to setting hard numbers with PX units. 
 
 4. How would you describe preprocessing to someone new to CSS?
+	- Prepocessing is like the stage manager for a play. Every aspect of the show, actors and props, have their roles to play and their appearances,
+	but if the manager decides to change a prop or a costume for a better functioning show, that is what's going to happen. The preprocessor takes out
+	the additional steps of having to do a thousand different lines of codes for each and every aspect of a website, and can streamline the process of 
+	editing out appearance and function.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+	- My favorite concept is that of importing - allowing to create variables and methods in order to simplify and expedite the process of editing the
+	appearance of the website.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

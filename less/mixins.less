@@ -1,1 +1,44 @@
 // Mixins Here
+
+//Button Creation Mixin
+
+.custom-btn(@bg-color, @width, @font-color){
+  
+	display: block;
+  	background-color: @bg-color;
+  	margin: 0 10px 20px;
+  	cursor: pointer;
+  	width: @width;
+  	height: 45px;
+  	font-size: 2rem;
+  	border-radius: 10px;
+  	color:@font-color;
+	font-family: 'Ubuntu', sans-serif;
+
+	&:hover{
+		background-color: lighten(@bg-color, 15%);
+	}
+	
+}
+
+//Alignment Mixin
+
+.custom-layout(@justify, @align){
+	display:flex;
+	justify-content:@justify;
+	align-items:@align;
+}
+
+//Style Mixins
+
+.bordered() {
+  padding: 20px 0;
+  border-top: 1px dashed gray;
+  border-bottom: 1px dashed gray;
+}
+
+.center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
